@@ -1,10 +1,14 @@
-.main-circle {
+body, html {
     background: black;
+}
+.main-circle {
+    background: #4c0702;
     height: 500px;
     width: 500px;
     border-radius: 50%;
     position: relative;
     margin: auto;
+    margin-top: 10%;
   }
   .inner-circle {
     position: absolute;
@@ -86,9 +90,10 @@
     background: brown;
     top: 0;
     left: calc(50% - 122.5px);
+    box-shadow: 4px 4px 4px blueviolet;
   }
   .child2 {
-    background: red;
+    background: brown;
     top: calc(50% - 122.5px);
     left: 0;
   }
@@ -97,11 +102,13 @@
      top: 50%;
      left: calc(50% - 122.5px);
      transform: rotate(180deg);
+     box-shadow: 4px 4px 4px blueviolet;
   }
   .child4 {
-    background: red;
+    background: brown;
     top: calc(50% - 122.5px);
      right: 0;
+     transform: rotate(180deg);
   }
   
   .inner-square {
@@ -164,6 +171,7 @@
     height: 81px;
     border-radius: 46%;
     box-shadow: 15px 15px 0 0 black;
+    animation: boatrace 300ms infinite;
   }
 
   .sibling1 {
@@ -172,13 +180,18 @@
     height: 287px;
   }
   .sibling2 {
-    background: orange;
+    background: orangered;
     width: 134px;
     height: 287px;
   }
   .sibling3 {
-    background: white;
+    background: orange;
     width: 70px;
+    height: 287px;
+  }
+  .sibling4 {
+    background: white;
+    width: 30px;
     height: 287px;
   }
   .child1-sibling1__position {
@@ -193,16 +206,60 @@
     top: 0px;
     left: calc(50% - 35px);
   }
+  .child1-sibling4__position {
+    top: 0px;
+    left: calc(50% - 15px);
+    opacity: 0.3;
+  }
 
   .child2-sibling1__position {
     left: 0px;
-    top: calc(50% - 100px);
+    top: calc(50% - 95px);
+    background: red;
+    width: 325px;
+    height: 190px;
   }
   .child2-sibling2__position {
     left: 0px;
-    top: calc(50% - 67px);
+    top: calc(50% - 65px);
+    background: orangered;
+    width: 325px;
+    height: 130px;
   }
   .child2-sibling3__position {
     left: 0px;
     top: calc(50% - 35px);
+    background: orange;
+    width: 325px;
+    height: 70px;
+  }
+  .child2-sibling4__position {
+    left: 0px;
+    top: calc(50% - 15px);
+    background: white;
+    width: 325px;
+    height: 30px;
+    opacity: 0.3;
+  }
+/* 
+  @keyframes boatrace {
+      from {
+        top: 30%;
+      }
+      to {
+          top: 33%;
+          left: 150%
+      }
+  } */
+
+  .boat-paddle {
+    height: 158px;
+    width: 6px;
+    background: black;
+    position: absolute;
+    transform: rotate(
+26deg
+);
+    left: calc(50% - 10px);
+    top: 18%;
   }
