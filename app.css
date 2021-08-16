@@ -32,6 +32,7 @@ body, html {
     border-radius: 50%;
     top: calc(50% - 225px);
     left: calc(50% - 225px);
+    transform: rotate(88.5deg);
   }
   .inner-circle-3 {
     width: 225px;
@@ -89,12 +90,11 @@ body, html {
   .child1 {
     background: brown;
     top: 0;
-    left: calc(50% - 122.5px);
-    box-shadow: 4px 4px 4px blueviolet;
+    left: calc(50% - 121.5px);
   }
   .child2 {
     background: brown;
-    top: calc(50% - 122.5px);
+    top: calc(50% - 112.5px);
     left: 0;
   }
   .child3 {
@@ -102,11 +102,10 @@ body, html {
      top: 50%;
      left: calc(50% - 122.5px);
      transform: rotate(180deg);
-     box-shadow: 4px 4px 4px blueviolet;
   }
   .child4 {
     background: brown;
-    top: calc(50% - 122.5px);
+    top: calc(50% - 111.5px);
      right: 0;
      transform: rotate(180deg);
   }
@@ -151,8 +150,8 @@ body, html {
     background: white;
     z-index: 21;
     border-radius: 50%;
-    top: calc(50% - 137.5px);
-    left: calc(50% - 145.5px);   
+    top: calc(50% - 149.5px);
+    left: calc(50% - 136.5px);   
     background:white;  
   }
 
