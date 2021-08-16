@@ -21,7 +21,7 @@
     left: calc(50% - 75px);
   }
   .inner-circle-2 {
-    background: black;
+    background: #380d40;
     height: 450px;
     width: 450px;
     position: absolute;
@@ -36,41 +36,42 @@
     z-index: 20;
     top: calc(50% - 122.5px);
     left: calc(50% - 122.5px);
+    border: 1px solid;
   }
   .c1 {
-     background: red;
+     background: #900404;
     transform: rotate(10deg);
   }
   .c2 {
-    background: yellow;
+    background: #ff5722;
     transform: rotate(20deg);
   }
   .c3 {
-    background: orange;
+    background: #ff9800;
     transform: rotate(30deg);
   }
   .c4 {
-    background: blue;
+    background: #ffeb3b;
     transform: rotate(40deg);
   }
   .c5 {
-    background: purple;
+    background: #fdf082;
     transform: rotate(50deg);
   }
   .c6 {
-      background: green;
+      background: #ff9800;
     transform: rotate(60deg);
   }
   .c7 {
-      background: white;
+      background: #ff5722;
     transform: rotate(70deg);
   }
   .c8 {
-      background: grey;
+      background: #900404;
     transform: rotate(80deg);
   }
   .c9 {
-      background: maroon;
+      background: #000000;
     transform: rotate(90deg);
   }
   
@@ -82,7 +83,7 @@
     height: 225px;
   }
   .child1 {
-    background: yellow;
+    background: brown;
     top: 0;
     left: calc(50% - 122.5px);
   }
@@ -95,9 +96,10 @@
     background: brown;
      top: 50%;
      left: calc(50% - 122.5px);
+     transform: rotate(180deg);
   }
   .child4 {
-    background: grey;
+    background: red;
     top: calc(50% - 122.5px);
      right: 0;
   }
@@ -105,7 +107,6 @@
   .inner-square {
     width: 225px;
     height: 225px;
-    background: white;
     position: absolute;
     z-index: 20;
     top: calc(50% - 102.5px);
@@ -115,7 +116,7 @@
      width: 350px;
     height: 350px;
     position: absolute;
-    background: white;
+    background: #5b006b;
     z-index: 5;
     top: calc(50% - 175px);
     left: calc(50% - 175px);
@@ -129,103 +130,79 @@
     z-index: 21;
     border-radius: 50%;
     top: calc(50% - 113.5px);
-    left: calc(50% - 125.5px);   
+    left: calc(50% - 113.5px);   
     background:orange;
     box-shadow: 0 0 10px orange,
                   0 0 60px orange,
                   0 0 200px yellow,
                   inset 0 0 80px yellow;
   }
+  .main-content-circle-1 {
+    width: 275px;
+    height: 275px;
+    position: absolute;
+    background: white;
+    z-index: 21;
+    border-radius: 50%;
+    top: calc(50% - 137.5px);
+    left: calc(50% - 145.5px);   
+    background:white;  
+  }
 
-  .kv-logo-up {
-    height: 100px;
-    border-left: 15px solid blue;
-    transform: skew(-30deg);
+  .boat1 {
     position: absolute;
-    left: 25%;
-    top: 25%;
+    top: 23%;
+    width: 149px;
+    height: 79px;
+    border-radius: 41%;
+    box-shadow: 15px 15px 0 0 black;
   }
-  
-  .kv-logo-up-2 {
-    height: 100px;
-    border-left: 15px solid blue;
-    transform: skew(30deg);
+  .boat2 {
     position: absolute;
-    left: 50%;
-    top: 25%;
-    z-index: 7;
+    top: 33%;
+    width: 181px;
+    height: 81px;
+    border-radius: 46%;
+    box-shadow: 15px 15px 0 0 black;
   }
-  
-  .kv-logo-up-8 {
-    width: 46px;
-    border-bottom: 15px solid blue;
-    position: absolute;
-    left: 13.5%;
-    top: 64%;
-    transform: skewX(-30deg);
-    z-index: 8;
+
+  .sibling1 {
+    background: red;
+    width: 200px;
+    height: 287px;
   }
-  
-  .kv-logo-up-3 {
-    height: 100px;
-    border-left: 15px solid grey;
-    transform: skew(30deg);
-    position: absolute;
-    left: 71%;
-    top: 26%;
+  .sibling2 {
+    background: orange;
+    width: 134px;
+    height: 287px;
   }
-  
-  .kv-logo-up-4 {
-    height: 100px;
-    border-left: 15px solid grey;
-    transform: skew(-30deg);
-    position: absolute;
-    left: 45%;
-    top: 26%;
+  .sibling3 {
+    background: white;
+    width: 70px;
+    height: 287px;
   }
-  
-  .kv-logo-up-5 {
-    height: 100px;
-    border-left: 15px solid red;
-    transform: skew(-30deg);
-    position: absolute;
-    left: 34.9%;
-    top: 43%;
-    z-index: 5;
+  .child1-sibling1__position {
+    top: 0px;
+    left: calc(50% - 100px);
   }
-  
-  .kv-logo-up-6 {
-    width: 110px;
-    border-bottom: 15px solid red;
-    position: absolute;
-    left: 27.3%;
-    top: 80.5%;
+  .child1-sibling2__position {
+    top: 0px;
+    left: calc(50% - 67px);
   }
-  .kv-logo-up-9 {
-    height: 45px;
-    border-left: 15px solid red;
-    position: absolute;
-    left: 68.3%;
-    top: 67.5%;
-    transform: skew(30deg);
+  .child1-sibling3__position {
+    top: 0px;
+    left: calc(50% - 35px);
   }
-  .kv-logo-up-10 {
-    height: 45px;
-    border-left: 15px solid red;
-    position: absolute;
-    left: 33.99%;
-    top: 57%;
-    transform: skew(-30deg);
-    z-index: 8;
+
+  .child2-sibling1__position {
+    left: 0px;
+    top: calc(50% - 100px);
   }
-  
-  .kv-logo-up-7 {
-    width: 124px;
-    border-bottom: 15px solid grey;
-    position: absolute;
-    left: 34%;
-    top: 65%;
-    transform: skewX(30deg);
-    z-index: 8;
+  .child2-sibling2__position {
+    left: 0px;
+    top: calc(50% - 67px);
   }
-  
+  .child2-sibling3__position {
+    left: 0px;
+    top: calc(50% - 35px);
+  }
