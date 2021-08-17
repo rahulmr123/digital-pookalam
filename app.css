@@ -260,8 +260,8 @@ body, html {
 } */
 
   .boat-paddle {
-    height: 158px;
-    width: 6px;
+    height: 162px;
+    width: 4px;
     background: black;
     position: absolute;
     transform: rotate(
@@ -270,4 +270,37 @@ body, html {
     left: calc(50% - 10px);
     top: 18%;
     animation: boatpaddle 3000ms infinite;
+  }
+
+  .boat-paddle-umbrella {
+     /* height: 23px; */
+    /* width: 76px; */
+    background: black;
+    position: absolute;
+    /* border-radius: 50%; */
+    transform: rotate( 
+30deg
+ );
+    left: calc(50% - 6px);
+    top: 14%;
+    width: 75px;
+    height: 25px;
+    background-color: black;
+    border-top-left-radius: 50px;
+    border-top-right-radius: 50px;
+    border: 1px solid gold;
+    border-bottom: 0;
+  }
+  .sun {
+    height: 30px;
+    width: 30px;
+    background: orangered;
+    border-radius: 50%;
+    left: 22%;
+    background-color: #f9484a;
+background-image: linear-gradient(315deg, #f9484a 0%, #fbd72b 74%);
+top: 30%;
+border: 1px solid lightgoldenrodyellow;
+position: absolute;
+
   }
