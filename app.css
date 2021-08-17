@@ -1,0 +1,335 @@
+body,
+html {
+  background: white;
+}
+
+.main-circle {
+  background: #4c0702;
+  height: 500px;
+  width: 500px;
+  border-radius: 50%;
+  position: relative;
+  margin: auto;
+  margin-top: 10%;
+}
+
+.inner-circle {
+  position: absolute;
+  height: 350px;
+  width: 350px;
+  top: calc(50% - 175px);
+  left: calc(50% - 175px);
+}
+
+.inner-circle-1 {
+  position: absolute;
+  height: 150px;
+  width: 150px;
+  top: calc(50% - 75px);
+  left: calc(50% - 75px);
+}
+
+.inner-circle-2 {
+  background: #380d40;
+  height: 450px;
+  width: 450px;
+  position: absolute;
+  border-radius: 50%;
+  top: calc(50% - 225px);
+  left: calc(50% - 225px);
+  transform: rotate(88.5deg);
+}
+
+.inner-circle-3 {
+  width: 225px;
+  height: 225px;
+  position: absolute;
+  z-index: 20;
+  top: calc(50% - 122.5px);
+  left: calc(50% - 122.5px);
+  border: 1px solid;
+}
+
+.c1 {
+  background: #900404;
+  transform: rotate(10deg);
+}
+
+.c2 {
+  background: #ff5722;
+  transform: rotate(20deg);
+}
+
+.c3 {
+  background: #ff9800;
+  transform: rotate(30deg);
+}
+
+.c4 {
+  background: #ffeb3b;
+  transform: rotate(40deg);
+}
+
+.c5 {
+  background: #fff;
+  transform: rotate(50deg);
+}
+
+.c6 {
+  background: #ff9800;
+  transform: rotate(60deg);
+}
+
+.c7 {
+  background: #ff5722;
+  transform: rotate(70deg);
+}
+
+.c8 {
+  background: #900404;
+  transform: rotate(80deg);
+}
+
+.c9 {
+  background: #000000;
+  transform: rotate(90deg);
+}
+
+.inner-circle-2__child {
+  position: absolute;
+  border-radius: 50%;
+  z-index: 10;
+  width: 225px;
+  height: 225px;
+}
+
+.child1 {
+  background: brown;
+  top: 0;
+  left: calc(50% - 121.5px);
+}
+
+.child2 {
+  background: brown;
+  top: calc(50% - 112.5px);
+  left: 0;
+}
+
+.child3 {
+  background: brown;
+  top: 50%;
+  left: calc(50% - 122.5px);
+  transform: rotate(180deg);
+}
+
+.child4 {
+  background: brown;
+  top: calc(50% - 111.5px);
+  right: 0;
+  transform: rotate(180deg);
+}
+
+.inner-square {
+  width: 225px;
+  height: 225px;
+  position: absolute;
+  z-index: 20;
+  top: calc(50% - 102.5px);
+  left: calc(50% - 113.5px);
+}
+
+.inner-circle-2__square {
+  width: 350px;
+  height: 350px;
+  position: absolute;
+  z-index: 5;
+  top: calc(50% - 175px);
+  left: calc(50% - 175px);
+}
+
+.kv-logo {
+  width: 225px;
+  height: 225px;
+  position: absolute;
+  background: white;
+  z-index: 21;
+  border-radius: 50%;
+  top: calc(50% - 113.5px);
+  left: calc(50% - 113.5px);
+  background: orange;
+  box-shadow: 0 0 10px orange,
+    0 0 60px orange,
+    0 0 200px yellow,
+    inset 0 0 80px yellow;
+  overflow: hidden;
+}
+
+.main-content-circle-1 {
+  width: 275px;
+  height: 275px;
+  position: absolute;
+  background: white;
+  z-index: 21;
+  border-radius: 50%;
+  top: calc(50% - 149.5px);
+  left: calc(50% - 136.5px);
+  background: white;
+}
+
+.boat1 {
+  position: absolute;
+  top: 23%;
+  width: 149px;
+  height: 79px;
+  border-radius: 41%;
+  box-shadow: 15px 15px 0 0 black;
+  animation: boatrace 3000ms infinite;
+}
+
+.boat2 {
+  position: absolute;
+  top: 33%;
+  width: 181px;
+  height: 81px;
+  border-radius: 46%;
+  box-shadow: 15px 15px 0 0 black;
+  animation: boatrace 3000ms infinite;
+}
+
+.sibling1 {
+  background: red;
+  width: 200px;
+  height: 287px;
+}
+
+.sibling2 {
+  background: orangered;
+  width: 134px;
+  height: 287px;
+}
+
+.sibling3 {
+  background: orange;
+  width: 70px;
+  height: 287px;
+}
+
+.sibling4 {
+  background: white;
+  width: 30px;
+  height: 287px;
+}
+
+.child1-sibling1__position {
+  top: 0px;
+  left: calc(50% - 100px);
+}
+
+.child1-sibling2__position {
+  top: 0px;
+  left: calc(50% - 67px);
+}
+
+.child1-sibling3__position {
+  top: 0px;
+  left: calc(50% - 35px);
+}
+
+.child1-sibling4__position {
+  top: 0px;
+  left: calc(50% - 15px);
+  opacity: 0.3;
+}
+
+.child2-sibling1__position {
+  left: 0px;
+  top: calc(50% - 95px);
+  background: red;
+  width: 325px;
+  height: 190px;
+}
+
+.child2-sibling2__position {
+  left: 0px;
+  top: calc(50% - 65px);
+  background: orangered;
+  width: 325px;
+  height: 130px;
+}
+
+.child2-sibling3__position {
+  left: 0px;
+  top: calc(50% - 35px);
+  background: orange;
+  width: 325px;
+  height: 70px;
+}
+
+.child2-sibling4__position {
+  left: 0px;
+  top: calc(50% - 15px);
+  background: white;
+  width: 325px;
+  height: 30px;
+  opacity: 0.3;
+}
+
+/* @keyframes boatrace {
+      from {
+        left: 0%;
+      }
+      to {
+          left: 100%
+      }
+  }
+  @keyframes boatpaddle {
+    from {
+      left: calc(50% - 10px);
+    }
+    to {
+        left: 100%
+    }
+} */
+
+.boat-paddle {
+  height: 162px;
+  width: 4px;
+  background: black;
+  position: absolute;
+  transform: rotate(26deg);
+  left: calc(50% - 10px);
+  top: 18%;
+  animation: boatpaddle 3000ms infinite;
+}
+
+.boat-paddle-umbrella {
+  /* height: 23px; */
+  /* width: 76px; */
+  background: black;
+  position: absolute;
+  /* border-radius: 50%; */
+  transform: rotate(30deg);
+  left: calc(50% - 6px);
+  top: 14%;
+  width: 75px;
+  height: 25px;
+  background-color: black;
+  border-top-left-radius: 50px;
+  border-top-right-radius: 50px;
+  border: 1px solid gold;
+  border-bottom: 0;
+}
+
+.sun {
+  height: 30px;
+  width: 30px;
+  background: orangered;
+  border-radius: 50%;
+  left: 22%;
+  background-color: #f9484a;
+  background-image: linear-gradient(315deg, #f9484a 0%, #fbd72b 74%);
+  top: 30%;
+  border: 1px solid lightgoldenrodyellow;
+  position: absolute;
+
+}
